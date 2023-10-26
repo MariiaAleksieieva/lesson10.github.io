@@ -1,0 +1,63 @@
+body {
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.fon {
+    min-width: 100%;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    gap: 60px;
+    margin-bottom: 50px;
+}
+
+.watch {
+    background-image: url(../img/watch.jpg);
+    background-size: cover;
+    text-shadow: 2px 1px 2px white;
+}
+
+.shoes {
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    text-shadow: 2px 1px 2px white;
+}
+
+.bags {
+    background-image: url(../img/bags.jpg);
+    background-size: cover;
+    text-shadow: 2px 1px 2px white;
+}
+
+img {
+    margin: 10px auto;
+}    
+
+.goods {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 60px;
+}
+
+footer>p {
+    margin-bottom: 0;
+}
